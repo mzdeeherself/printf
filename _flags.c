@@ -13,7 +13,7 @@ int _flags(const char *format, int *i)
 	const char FLAGS_CH[] = {'-', '+', '0', '#', ' ', '\0'};
 	const int FLAGS_ARR[] = {F_MINUS, F_PLUS, F_ZERO, F_HASH, F_SPACE, 0};
 
-	for (odds_i = *i + 1; format[odds_i] != '\0'; odd_i++)
+	for (odds_i = *i + 1; format[odds_i] != '\0'; odds_i++)
 	{
 		for (j = 0; FLAGS_CH[j] != '\0'; j++)
 			if (format[odds_i] == FLAGS_CH[j])
