@@ -2,7 +2,7 @@
 
 /**
 * _flags - Calculate flags
-* @format: Format string to print the arguments
+* @format: Format string to print the arguments.
 * @i: take a parameter.
 * Return: Flags:
 */
