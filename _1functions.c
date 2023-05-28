@@ -85,7 +85,7 @@ int print_octal_notation(va_list types, char buffer[],
  * @size: Specifies the size
  * Return: Characters printed
  */
-int print_hexadecimal_notation(va_list types, char buffer[],
+int hexadecimal_notation(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	return (hexa_number(types, "0123456789abcdef", buffer,
