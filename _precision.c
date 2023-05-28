@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _precision - Calculates the precision for printing
+* _precision - Calculates the precision for printing.
 * @format: Format string to print the arguments
 * @i: argument list to be printed.
 * @list:  arguments list.
