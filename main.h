@@ -19,7 +19,7 @@
 /**
 * struct fmt - Struct def
 * @fmt: format.
-* @fn: func associated.
+* @fn: The function associated.
 */
 struct fmt
 {
