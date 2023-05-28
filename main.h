@@ -44,7 +44,7 @@ int print_integer(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int unsgnd_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_unsigned(va_list types, char buffer[],
+int print_unsigned_num(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_octal_notation(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
