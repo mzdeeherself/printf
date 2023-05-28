@@ -3,7 +3,7 @@
 /**
 * calc_width - Calc the width for printing.
 * @format: Format string to print the arguments.
-* @i: arguments list to be printed
+* @i: arguments list to be printed.
 * @list: arguments list.
 * Return: width.
 */
