@@ -52,7 +52,7 @@ int write_handle(char c, char buffer[],
  * @size: Specifies the size
  * Return: Characters printed.
  */
-int write_num(int is_negative, int ind, char buffer[],
+int write_number(int is_negative, int ind, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	int length = BUFF_SIZE - ind - 1;
@@ -69,7 +69,7 @@ int write_num(int is_negative, int ind, char buffer[],
 	else if (flags & F_SPACE)
 		extra_ch = ' ';
 
-	return (write_num(ind, buffer, flags, width, precision,
+	return (write_number(ind, buffer, flags, width, precision,
 		length, padd, extra_ch));
 }
 
