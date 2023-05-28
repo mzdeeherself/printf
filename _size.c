@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * get_size - Calculates the size to cast the argument
+ * _size - Calcs size for argument
  * @format: Formatted string in which to print the arguments
  * @i: Arguments to be printed.
  * Return: Precision.
  */
 
-int get_size(const char *format, int *i)
+int _size(const char *format, int *i)
 {
 	int odds_i = *i + 1;
 	int size = 0;
