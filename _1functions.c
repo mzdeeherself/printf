@@ -105,7 +105,7 @@ int print_hexadecimal_notation(va_list types, char buffer[],
 int hexa_upper_notation(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
-	return (print_hexa(types, "0123456789ABCDEF", buffer,
+	return (hexa_number(types, "0123456789ABCDEF", buffer,
 		flags, 'X', width, precision, size));
 }
 
@@ -152,5 +152,5 @@ int hexa_number(va_list types, char map_to[], char buffer[],
 
 	i++;
 
-	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
+	return (write_num_unsgnd(0, i, buffer, flags, width, precision, size));
 }
