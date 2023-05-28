@@ -26,7 +26,7 @@ int _flags(const char *format, int *i)
 			break;
 	}
 
-	*i = odd_i - 1;
+	*i = odds_i - 1;
 
 	return (flags);
 }
