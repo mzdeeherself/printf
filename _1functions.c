@@ -31,7 +31,7 @@ int print_unsigned_num(va_list types, char buffer[],
 
 	i++;
 
-	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
+	return (write_num_unsgnd(0, i, buffer, flags, width, precision, size));
 }
 
 /**
@@ -72,7 +72,7 @@ int print_octal_notation(va_list types, char buffer[],
 
 	i++;
 
-	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
+	return (write_num_unsgnd(0, i, buffer, flags, width, precision, size));
 }
 
 /**
@@ -88,7 +88,7 @@ int print_octal_notation(va_list types, char buffer[],
 int print_hexadecimal_notation(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
-	return (print_hexa(types, "0123456789abcdef", buffer,
+	return (hexa_number(types, "0123456789abcdef", buffer,
 		flags, 'x', width, precision, size));
 }
 
