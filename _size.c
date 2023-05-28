@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _size - Calcs size for argument
+ * _size - Calcs size for argument.
  * @format: Formatted string in which to print the arguments
  * @i: Arguments to be printed.
  * Return: Precision.
